@@ -31,7 +31,7 @@ export default function Navigation({ prevId, nextId, name }) {
         <img
           src="/img/strel2.png"
           alt=""
-          className=" md:shadow-noneborder-[#4056A1] border-2 shadow-md border-opacity-20 md:border-0 md:shadow-none rounded-md md:m-0 h-10 md:h-20 w-auto"
+          className=" md:shadow-none border-[#4056A1] border-2 shadow-md border-opacity-20 md:border-0 md:shadow-none rounded-md md:m-0 h-10 md:h-20 w-auto"
         />
       </Link>
     </div>
