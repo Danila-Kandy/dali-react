@@ -1,0 +1,74 @@
+{
+  "pictures": [
+    {
+      "id": 1,
+      "name": "Немного о авторе",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Persistence_of_Memory.jpg",
+      "color": "red",
+      "description": "Сальвадор Дали — художник-сюрреалист каталонского происхождения. Помимо этого — скульптор, актёр в фильме «Андалузский пёс», актёр в рекламе, автор сценария к малоизвестной диснеевской короткометражки Destino, автор логотипа для Чупа-чупса, да и просто очень странный человек."
+    },
+    {
+      "id": 2,
+      "name": "Лицо войны",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Face_of_War.JPG",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Персистентность памяти",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Persistence_of_Memory.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Галатея со сферами",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Galateaballs.jpg",
+      "color": "red",
+      "description": ""
+    }
+  ]
+}
