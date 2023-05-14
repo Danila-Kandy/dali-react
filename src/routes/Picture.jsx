@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import Navigation from '../components/Navigation'
-import pictures from '../constant'
+import pictures from '../pictures'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
@@ -16,7 +16,7 @@ export default function Picture() {
             src={picture.image}
             alt=""
             className="md:h-60 w-auto drop-shadow-lg h-56"
-            effect='blur'
+            effect="blur"
           ></LazyLoadImage>
         </Link>
         <Navigation
@@ -31,7 +31,7 @@ export default function Picture() {
           alt=""
           className="h-20 w-auto opacity-0 absolute md:relative"
         />
-        <div className="m-4 mb-2 md:mb-5 md:m-0 p-3 md:mt-5 text-[#4056A1] brightness-75 border-[#4056A1] border-2 h-72 md:h-60 shadow-md border-opacity-10 rounded-md md:w-96 overflow-auto bg-[#C5CBE3] bg-opacity-20 will-change-scroll">
+        <div className="m-4 mb-2 md:mb-3 md:m-0 p-3 md:mt-5 text-[#4056A1] brightness-75 border-[#4056A1] border-2 h-72 md:h-60 shadow-md border-opacity-10 rounded-md md:w-96 overflow-auto bg-[#C5CBE3] bg-opacity-20 will-change-scroll">
           {picture.description}
         </div>
       </div>

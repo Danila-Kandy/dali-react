@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom'
-import pictures from '../constant'
+import pictures from '../pictures'
 
 export default function List() {
-  
   return (
     <div className="md:grid md:grid-cols-3 gap-4 md:content-start m-7 overscroll-x-none overscroll-y-auto">
-      
       {pictures.map((picture) => (
         <div
           key={picture.id}

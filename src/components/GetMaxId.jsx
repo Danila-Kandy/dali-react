@@ -1,4 +1,4 @@
-import pictures from "../constant"
+import pictures from '../pictures'
 
 export default function getMaxId() {
   let maxId = pictures[0].id
