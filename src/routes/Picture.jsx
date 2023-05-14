@@ -1,6 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import Navigation from '../components/Navigation'
 import pictures from '../constant'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 export default function Picture() {
   let { id } = useParams()
@@ -10,11 +12,12 @@ export default function Picture() {
     <div className="flex flex-col justify-center">
       <div className="flex mt-3 md:mt-10 flex-col justify-center">
         <Link to={`/picture/${id}`} className="flex justify-center mb-5 ">
-          <img
+          <LazyLoadImage
             src={picture.image}
             alt=""
             className="md:h-60 w-auto drop-shadow-lg h-56"
-          />
+            effect='blur'
+          ></LazyLoadImage>
         </Link>
         <Navigation
           prevId={pictureId - 1}

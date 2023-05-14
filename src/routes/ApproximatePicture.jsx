@@ -1,5 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import pictures from '../constant'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 export default function ApproximatePicture() {
   let { id } = useParams()
@@ -14,12 +16,13 @@ export default function ApproximatePicture() {
       </Link>
       <div className="flex md:flex-row gap-5 flex-col">
         <div className="md:max-h-full md:w-1/2 flex justify-center">
-          <img
+          <LazyLoadImage
             src={picture.image}
             alt=""
             className="rounded-md shadow-md border-4 border-[#D79922] md:w-auto w-84 h-auto"
             id="height"
-          />
+            effect="blur"
+          ></LazyLoadImage>
         </div>
         <div className="md:w-1/2">
           <div
